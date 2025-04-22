@@ -35,4 +35,8 @@ env/
 .streamlit/
 
 # Mac
-.DS_Store 
+.DS_Store
+
+# Database
+*.db
+!pattern_analysis.db  # 현재 DB 파일은 예외로 설정 
